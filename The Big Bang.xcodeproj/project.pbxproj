@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		EB6A16712A3CCD6600437D7C /* The_Big_BangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A16702A3CCD6600437D7C /* The_Big_BangApp.swift */; };
-		EB6A16732A3CCD6600437D7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A16722A3CCD6600437D7C /* ContentView.swift */; };
 		EB6A16752A3CCD6800437D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A16742A3CCD6800437D7C /* Assets.xcassets */; };
 		EB6A16782A3CCD6800437D7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A16772A3CCD6800437D7C /* Preview Assets.xcassets */; };
+		EB6A167F2A3CCD9D00437D7C /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = EB6A167E2A3CCD9D00437D7C /* BigBang.json */; };
+		EB6A16862A3CCF2A00437D7C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A16852A3CCF2A00437D7C /* Model.swift */; };
+		EB6A16882A3CD3E100437D7C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A16872A3CD3E100437D7C /* ViewModel.swift */; };
+		EB6A168C2A3CDFC800437D7C /* EpisodesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A168B2A3CDFC800437D7C /* EpisodesRow.swift */; };
+		EB6A168E2A3CE91600437D7C /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A168D2A3CE91600437D7C /* Episode.swift */; };
+		EB80CAA72A4308AA00A347FB /* SeasonViewlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80CAA62A4308AA00A347FB /* SeasonViewlist.swift */; };
+		EB834A3A2A4AD43F00D0819D /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB834A392A4AD43F00D0819D /* FilterView.swift */; };
+		EB834A3E2A4ADD0000D0819D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB834A3D2A4ADD0000D0819D /* FavoritesView.swift */; };
+		EB834A402A4AE30300D0819D /* ViewModelFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB834A3F2A4AE30300D0819D /* ViewModelFavorite.swift */; };
+		EB8957472A5492FA0090FFFB /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8957462A5492FA0090FFFB /* SafariWebView.swift */; };
+		EB89605A2A443E3800578AC0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8960592A443E3800578AC0 /* DetailsView.swift */; };
+		EB8AAB2F2A40608900C48463 /* ModelPresistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8AAB2E2A40608900C48463 /* ModelPresistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB6A166D2A3CCD6600437D7C /* The Big Bang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Big Bang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6A16702A3CCD6600437D7C /* The_Big_BangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Big_BangApp.swift; sourceTree = "<group>"; };
-		EB6A16722A3CCD6600437D7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB6A16742A3CCD6800437D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6A16772A3CCD6800437D7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6A167E2A3CCD9D00437D7C /* BigBang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
+		EB6A16852A3CCF2A00437D7C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EB6A16872A3CD3E100437D7C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EB6A168B2A3CDFC800437D7C /* EpisodesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesRow.swift; sourceTree = "<group>"; };
+		EB6A168D2A3CE91600437D7C /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		EB80CAA62A4308AA00A347FB /* SeasonViewlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonViewlist.swift; sourceTree = "<group>"; };
+		EB834A392A4AD43F00D0819D /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		EB834A3D2A4ADD0000D0819D /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		EB834A3F2A4AE30300D0819D /* ViewModelFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFavorite.swift; sourceTree = "<group>"; };
+		EB8957462A5492FA0090FFFB /* SafariWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
+		EB8960592A443E3800578AC0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		EB8AAB2E2A40608900C48463 /* ModelPresistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPresistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +74,19 @@
 			isa = PBXGroup;
 			children = (
 				EB6A16702A3CCD6600437D7C /* The_Big_BangApp.swift */,
-				EB6A16722A3CCD6600437D7C /* ContentView.swift */,
-				EB6A16742A3CCD6800437D7C /* Assets.xcassets */,
+				EB834A3D2A4ADD0000D0819D /* FavoritesView.swift */,
+				EB8960592A443E3800578AC0 /* DetailsView.swift */,
+				EB8957462A5492FA0090FFFB /* SafariWebView.swift */,
+				EB6A16872A3CD3E100437D7C /* ViewModel.swift */,
+				EB834A3F2A4AE30300D0819D /* ViewModelFavorite.swift */,
+				EB834A392A4AD43F00D0819D /* FilterView.swift */,
+				EB80CAA62A4308AA00A347FB /* SeasonViewlist.swift */,
+				EB6A168B2A3CDFC800437D7C /* EpisodesRow.swift */,
+				EB6A168D2A3CE91600437D7C /* Episode.swift */,
 				EB6A16762A3CCD6800437D7C /* Preview Content */,
+				EB6A16842A3CCECB00437D7C /* Model */,
+				EB6A167E2A3CCD9D00437D7C /* BigBang.json */,
+				EB6A16742A3CCD6800437D7C /* Assets.xcassets */,
 			);
 			path = "The Big Bang";
 			sourceTree = "<group>";
@@ -65,6 +97,15 @@
 				EB6A16772A3CCD6800437D7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6A16842A3CCECB00437D7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB6A16852A3CCF2A00437D7C /* Model.swift */,
+				EB8AAB2E2A40608900C48463 /* ModelPresistence.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6A16782A3CCD6800437D7C /* Preview Assets.xcassets in Resources */,
+				EB6A167F2A3CCD9D00437D7C /* BigBang.json in Resources */,
 				EB6A16752A3CCD6800437D7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6A16732A3CCD6600437D7C /* ContentView.swift in Sources */,
+				EB834A402A4AE30300D0819D /* ViewModelFavorite.swift in Sources */,
+				EB834A3A2A4AD43F00D0819D /* FilterView.swift in Sources */,
+				EB6A16862A3CCF2A00437D7C /* Model.swift in Sources */,
+				EB834A3E2A4ADD0000D0819D /* FavoritesView.swift in Sources */,
+				EB6A168E2A3CE91600437D7C /* Episode.swift in Sources */,
+				EB6A16882A3CD3E100437D7C /* ViewModel.swift in Sources */,
+				EB89605A2A443E3800578AC0 /* DetailsView.swift in Sources */,
+				EB6A168C2A3CDFC800437D7C /* EpisodesRow.swift in Sources */,
+				EB80CAA72A4308AA00A347FB /* SeasonViewlist.swift in Sources */,
 				EB6A16712A3CCD6600437D7C /* The_Big_BangApp.swift in Sources */,
+				EB8AAB2F2A40608900C48463 /* ModelPresistence.swift in Sources */,
+				EB8957472A5492FA0090FFFB /* SafariWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,24 @@ import SwiftUI
 
 @main
 struct The_Big_BangApp: App {
+    @StateObject var favoriteVM = ViewModelFavorite()
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            
+            TabView {
+                
+                SeasonViewlist(bigbang: .testBigBang)
+                    .tabItem {
+                        Label("Season", systemImage: "tv")
+                    }
+                FavoritesView()
+                    .tabItem {
+                        Label("Favorite", systemImage: "star")
+                        
+                    }
+            }
+            .environmentObject(ViewModelFavorite())
         }
     }
 }
